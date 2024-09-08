@@ -17,7 +17,7 @@ You can install them using the following command:
 
 ```bash
 pip install transformers torch
-
+```
 The script contains a function classify_issue(title, description) that takes the title and description of a GitHub issue as input and returns a category from the following labels:
 
 Bug
@@ -27,11 +27,10 @@ Task
 To use the function, you can modify the provided issue_title and issue_description in the script or pass your own values.
 
 Example:
-
-python
-Copy code
+```
 issue_title = "the compression format requested when saving a dataset in json format is not respected"
 issue_description = "Describe the bug in the `to_json` method..."
 
 print(classify_issue(issue_title, issue_description))
+```
 The model will return the predicted label for the issue based on its title and description.
