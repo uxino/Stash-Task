@@ -21,7 +21,7 @@ pip install transformers torch
 
 ## Usage
 
-### 1. clone and join the repository
+### 1. clone and get in the repository
 ### 2. Use the classification function
 The script contains a function classify_issue(title, description) that takes the title and description of a GitHub issue as input and returns a category from the following labels:
 
