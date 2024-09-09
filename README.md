@@ -34,6 +34,12 @@ Then you can install them using the following command:
 ```bash
 pip install transformers torch
 ```
+
+and run the script with:
+
+```bash
+python script.py
+```
 ### 2. Use the classification function
 The script contains a function classify_issue(title, description) that takes the title and description of a GitHub issue as input and returns a category from the following labels:
 
