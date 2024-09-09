@@ -8,20 +8,36 @@ The script uses a pre-trained BERT model, fine-tuned on a custom dataset, and is
 
 ## Requirements
 
-Before running the script, make sure you have Python installed along with the following packages:
 
-- `transformers`
-- `torch`
-
-You can install them using the following command:
-
-```bash
-pip install transformers torch
-```
 
 ## Usage
 
 ### 1. clone and get in the repository
+### 2. Before running the script
+Before running the script, make sure you have Python installed along with the following packages and you get in python env:
+
+```bash
+python3 -m venv env
+```
+If you dont have venv you can insall it with:
+```bash
+python3 -m venv env
+```
+and write this command to activate env:
+
+```bash
+source env/bin/activate
+```
+
+
+Then you can install them using the following command:
+
+- `transformers`
+- `torch`
+
+```bash
+pip install transformers torch
+```
 ### 2. Use the classification function
 The script contains a function classify_issue(title, description) that takes the title and description of a GitHub issue as input and returns a category from the following labels:
 
