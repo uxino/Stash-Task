@@ -19,10 +19,6 @@ Before running the script, make sure you have Python installed along with the fo
 ```bash
 python3 -m venv env
 ```
-If you dont have venv you can insall it with:
-```bash
-python3 -m venv env
-```
 and write this command to activate env:
 
 ```bash
